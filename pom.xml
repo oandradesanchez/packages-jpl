@@ -143,29 +143,6 @@
             </plugin>
 
             <plugin>
-                <!-- JAVADOC generation plugin -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.1.1</version>
-                <configuration>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                    <source>8</source>
-                    <excludePackageNames>org.jpl7.util;org.jpl7.test;org.jpl7.test.*</excludePackageNames>
-                    <!-- NOT NEEDED - But have JAVA_HOME correctly set-up
-                    <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
-                    -->
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
-            <plugin>
                 <!-- Unit test execution -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
