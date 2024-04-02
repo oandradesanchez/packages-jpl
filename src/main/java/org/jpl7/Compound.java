@@ -335,4 +335,12 @@ public class Compound extends Term {
 		return "Compound";
 	}
 
+    public Term[] getArgs() {
+        return args;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 }

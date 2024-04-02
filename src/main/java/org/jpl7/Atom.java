@@ -191,4 +191,12 @@ public class Atom extends Term {
 		return "Atom";
 	}
 
+    public String getName() {
+        return name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
 }

@@ -158,4 +158,8 @@ public class Float extends Term {
 		return "Float";
 	}
 
+    public double getValue() {
+        return value;
+    }
+
 }

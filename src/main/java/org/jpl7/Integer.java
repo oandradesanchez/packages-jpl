@@ -248,4 +248,13 @@ public class Integer extends Term {
 		return "Integer";
 	}
 
+    public long getValue() {
+        return value;
+    }
+
+    public BigInteger getBigValue() {
+        return bigValue;
+    }
+        
+
 }

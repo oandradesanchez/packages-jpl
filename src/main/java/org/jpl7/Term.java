@@ -447,7 +447,7 @@ public abstract class Term {
 	 * @see org.jpl7.Term#isBigInteger()
 	 */
 	public boolean isBig() {
-		throw new JPLException("isBig() is undefined for " + this.typeName());
+		return this instanceof Integer && ((Integer) this).isBig();
 	}
 
 	/**
