@@ -52,8 +52,8 @@
 
     <!-- ######################### PROPERTIES ######################### -->
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4jVersion>1.7.25</slf4jVersion>
         <skipTests>true</skipTests>
